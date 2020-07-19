@@ -13,7 +13,7 @@ suite.addTest(unittest.makeSuite(AddGood))
 report_file = "./report/test.html"
 
 with open(report_file,"wb") as f:
-    runner = HTMLTestRunner(f, title="宇泽购物流程－测试报告",description="v0.1")
+    runner = HTMLTestRunner(f, title="宇泽购物流程－测试报告",description="v0.1",encoding="utf-8")
     runner.run(suite)
 
 print(HEADERS)
