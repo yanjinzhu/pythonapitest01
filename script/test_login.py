@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 import requests,logging,unittest
 from api.login_api import loginapi
 from uitls import assertapi
