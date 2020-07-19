@@ -1,0 +1,29 @@
+[
+  {
+    "case":"login_success",
+    "username":"lucy",
+    "password":"123456",
+    "msg":"success",
+    "result":0,
+    "status":200
+  },
+
+    {
+    "case":"user_not_found",
+    "username":"lucysdf",
+    "password":"123456",
+    "msg":"not find",
+    "result":2,
+    "status":200
+  },
+
+    {
+    "case":"passwd_is_error",
+    "username":"lucy",
+    "password":"1234567",
+    "msg":"password is wrong",
+    "result":3,
+    "status":200
+  }
+
+]

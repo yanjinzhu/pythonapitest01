@@ -1,0 +1,26 @@
+[
+  {
+    "case":"addgood_success",
+    "goods_name":"华为mate30",
+    "category_id":1,
+    "status":200,
+    "result":0,
+    "msg":"success"
+  },
+  {
+    "case":"category_not_found",
+    "goods_name":"小米note4",
+    "category_id":4,
+    "status":200,
+    "result":1,
+    "msg":"category_id is not find"
+  },
+  {
+    "case":"goods_is_exists",
+    "goods_name":"华为mate30",
+    "category_id":1,
+    "status":200,
+    "result":2,
+    "msg":"goods is exists"
+  }
+]
